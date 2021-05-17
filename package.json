@@ -1,0 +1,26 @@
+{
+  "name": "santibot",
+  "version": "1.0.0",
+  "description": "Bot stworzony przez Santi#3245",
+  "main": "index.js",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "chalk": "^4.1.0",
+    "chart.js": "^2.9.4",
+    "chartjs-node-canvas": "^3.0.6",
+    "discord-anti-spam": "^2.4.1",
+    "discord.js": "^12.4.1",
+    "fivem": "^2.1.2",
+    "mee6-levels-api": "^1.1.0",
+    "quake3-rcon": "^1.0.2",
+    "sqlite": "^4.0.17",
+    "sqlite3": "^5.0.0",
+    "systeminformation": "^4.30.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node src/index.js",
+    "dev:watch": "nodemon src/index.js"
+  },
+  "author": "Santi#3245"
+}
